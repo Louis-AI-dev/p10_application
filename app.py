@@ -12,7 +12,7 @@ st.write("Cette application appelle la fonction Azure Function `proxyAPI` pour i
 user_id = st.text_input("ID Utilisateur", placeholder="Ex: 3")
 method = st.selectbox("Méthode", ["content_based", "collaborative"])
 
-# URL de ton Azure Function
+# URL de ton Azure Function.
 azure_function_url = st.text_input(
     "URL de ton Azure Function",
     value="https://jadore-azure.azurewebsites.net/api/proxyAPI",
